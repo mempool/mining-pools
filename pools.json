@@ -3,15 +3,6 @@
         "/BlockfillsPool/": {
             "name": "BlockFills",
             "link": "https://www.blockfills.com/mining/"
-        },
-        "/ultimus/": {
-            "name": "ULTIMUSPOOL",
-            "link": "https://www.ultimuspool.com/"
-        },
-        "terrapool.io": {
-            "name": "Terra Pool",
-            "link": "https://terrapool.io/"
-        },
         "/LUXOR/": {
             "name": "Luxor",
             "link": "https://mining.luxor.tech"
