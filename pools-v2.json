@@ -1517,5 +1517,17 @@
       "MARA Pool"
     ],
     "link": "https://marathondh.com"
+  },
+  {
+    "id": 141,
+    "name": "Zulupool",
+    "addresses": [
+      "1ZULUPooLEQfkrTgynLV4uHyMgQYx71ip"
+    ],
+    "tags": [
+      "ZULUPooL",
+      "ZU_test"
+    ],
+    "link": "https://beta.zulupool.com/"
   }
 ]
