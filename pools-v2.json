@@ -1526,5 +1526,14 @@
       "ZU_test"
     ],
     "link": "https://beta.zulupool.com/"
+  },
+  {
+    "id": 141,
+    "name": "NiceHash",
+    "addresses": [],
+    "tags": [
+      "/NiceHash/"
+    ],
+    "link": "https://www.nicehash.com"
   }
 ]
