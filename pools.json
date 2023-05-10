@@ -603,6 +603,10 @@
         "/pegapool/" : {
             "name" : "PEGA Pool",
             "link" : "https://www.pega-pool.com"
+        },
+        "/NiceHash/": {
+            "name": "NiceHash",
+            "link": "https://www.nicehash.com"
         }
     },
     "payout_addresses" : {
