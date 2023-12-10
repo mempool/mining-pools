@@ -22,10 +22,11 @@ connection.commit()
 
 # Create the table that will contain all addresses related to known mining pools
 create_pool_table_query = """
-CREATE TABLE IF NOT EXISTS pool_addresses (
+CREATE TABLE IF NOT EXISTS pools_addresses (
     Address VARCHAR(140),
     Pool_Id INT,
     Pool_Value BIGINT,
+    INDEX idx_pool_id (Pool_Id),
     FOREIGN KEY (Address) REFERENCES mining_addresses(Address)
 )
 """
@@ -44,7 +45,7 @@ else:
     cursor.execute(select_query)
     coinbase_data = cursor.fetchall()
 
-print("Completing mining addresses and pool addresses tables...")
+print("Completing mining addresses and pools addresses tables...")
 print(f"Number of blocks to process: {len(coinbase_data)}")
 
 for row in coinbase_data:
@@ -66,7 +67,7 @@ for row in coinbase_data:
         # Check if the combination of Address and Pool_Id already exists
         select_existing_query = f"""
             SELECT Pool_Value
-            FROM pool_addresses
+            FROM pools_addresses
             WHERE Address = '{address}' AND Pool_Id = {pool_id}
         """
         cursor.execute(select_existing_query)
@@ -75,7 +76,7 @@ for row in coinbase_data:
         if existing_data:
             # Update the existing row
             update_query = f"""
-                UPDATE pool_addresses
+                UPDATE pools_addresses
                 SET Pool_Value = Pool_Value + {value}
                 WHERE Address = '{address}' AND Pool_Id = {pool_id}
             """
@@ -83,7 +84,7 @@ for row in coinbase_data:
         else:
             # Insert a new row
             insert_pool_query = f"""
-                INSERT INTO pool_addresses (Address, Pool_Id, Pool_Value)
+                INSERT INTO pools_addresses (Address, Pool_Id, Pool_Value)
                 VALUES ('{address}', {pool_id}, {value})
             """
             cursor.execute(insert_pool_query)
@@ -96,8 +97,8 @@ connection.commit()
 cursor.execute("SELECT COUNT(*) FROM mining_addresses")
 print(f"Number of mining addresses: {cursor.fetchone()[0]}")
 print("Table mining_addresses completed.")
-cursor.execute("SELECT COUNT(*) FROM pool_addresses")
-print(f"Number of pool addresses: {cursor.fetchone()[0]}")
-print("Table pool_addresses completed.")
+cursor.execute("SELECT COUNT(*) FROM pools_addresses")
+print(f"Number of pools addresses: {cursor.fetchone()[0]}")
+print("Table pools_addresses completed.")
 
 connection.close()

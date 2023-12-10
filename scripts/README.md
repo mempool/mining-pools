@@ -1,8 +1,8 @@
-## `pool_addresses.csv`: a classification of all addresses related to known mining pools
+## `pools_addresses.csv`: a classification of all addresses related to known mining pools
 
-The scripts in this directory are used to generate the file `pool_addresses.csv` that contains all the addresses related to known mining pools referenced in `pools-v2.json`.
+The scripts in this directory are used to generate the file `pools_addresses.csv` that contains all the addresses related to known mining pools referenced in `pools-v2.json`.
 
-`pool_addresses.csv` contains every pair `address` - `pool_id` where `address` is a bitcoin address related to one or more mining pools and `pool_id` is the id of the pool. Note that since an address can be related to multiple known mining pools, the table can contain multiple rows for the same address.
+`pools_addresses.csv` contains every pair `address` - `pool_id` where `address` is a bitcoin address related to one or more mining pools and `pool_id` is the id of the pool. Note that since an address can be related to multiple known mining pools, the table can contain multiple rows for the same address.
 
 Each row looks like this:
 
@@ -69,19 +69,19 @@ The table `coinbase_data` contains all the coinbase transactions data up to curr
 
 4. Run `python3 mining_addresses.py`
 
-This uses the `coinbase_data` table to populate the tables `mining_addresses` and `pool_addresses`. The table `mining_addresses` simply lists all the addresses that ever received one or more coinbase transaction(s) and acts as foreign key for `pool_addresses`.
+This uses the `coinbase_data` table to populate the tables `mining_addresses` and `pools_addresses`. The table `mining_addresses` simply lists all the addresses that ever received one or more coinbase transaction(s) and acts as foreign key for `pools_addresses`.
 
-The table we are interested in is `pool_addresses` that only contains addresses related to known mining pools. Its structure is described [here](#pool_addressescsv-a-classification-of-all-addresses-related-to-known-mining-pools).
+The table we are interested in is `pools_addresses` that only contains addresses related to known mining pools. Its structure is described [here](#pool_addressescsv-a-classification-of-all-addresses-related-to-known-mining-pools).
 
-5. Export `pool_addresses` to csv
+5. Export `pools_addresses` to csv
 
 ```
-rm /path/to/pool_addresses.csv
-mariadb> SELECT * FROM pool_addresses INTO OUTFILE '/path/to/pool_addresses.csv' FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n';
+rm /path/to/pools_addresses.csv
+mariadb> SELECT * FROM pools_addresses INTO OUTFILE '/path/to/pools_addresses.csv' FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n';
 ```
 
 ----------------------------------------------
-Last update of `pool_addresses.csv`:
+Last update of `pools_addresses.csv`:
 
 ```
 MariaDB [coinbase]> SELECT MAX(Last_Block_Update) FROM mining_addresses;
