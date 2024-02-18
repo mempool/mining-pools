@@ -1551,5 +1551,14 @@
       "OCEAN.XYZ"
     ],
     "link": "https://ocean.xyz/"
+  },
+  {
+    "id": 143,
+    "name": "Public-Pool",
+    "addresses": [],
+    "tags": [
+      "Public-Pool"
+    ],
+    "link": "https://web.public-pool.io/"
   }
 ]
