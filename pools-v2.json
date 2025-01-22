@@ -31,7 +31,8 @@
       "bc1q39dled8an7enuxtmjql3pk7ny8kzvsxhd924sl"
     ],
     "tags": [
-      "terrapool.io"
+      "terrapool.io",
+      "Validated with Clean Energy"
     ],
     "link": "https://terrapool.io"
   },
@@ -1709,5 +1710,23 @@
     ],
     "tags": ["/BitFuFu/"],
     "link": "https://www.bitfufu.com/pool"
+  },
+  {
+    "id": 158,
+    "name": "luckyPool",
+    "addresses": [
+      "1DnPPFQPrfyNTiHPXhDFyqNnW9T62GEhB1"
+    ],
+    "tags": ["Lucky pool"],
+    "link": ""
+  },
+  {
+    "id": 159,
+    "name": "Mining-Dutch",
+    "addresses": [
+      "1AfPSq5ZbqBaxU5QAayLQJMcXV8HZt92eq"
+    ],
+    "tags": ["/Mining-Dutch/"],
+    "link": "https://www.mining-dutch.nl/"
   }
 ]
