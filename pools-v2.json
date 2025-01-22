@@ -1708,5 +1708,14 @@
     ],
     "tags": ["/BitFuFu/"],
     "link": "https://www.bitfufu.com/pool"
+  },
+  {
+    "id": 158,
+    "name": "Mining-Dutch",
+    "addresses": [
+      "1AfPSq5ZbqBaxU5QAayLQJMcXV8HZt92eq"
+    ],
+    "tags": ["/Mining-Dutch/"],
+    "link": "https://www.mining-dutch.nl/"
   }
 ]
