@@ -1708,5 +1708,14 @@
     ],
     "tags": ["/BitFuFu/"],
     "link": "https://www.bitfufu.com/pool"
+  },
+  {
+    "id": 158,
+    "name": "luckyPool",
+    "addresses": [
+      "1DnPPFQPrfyNTiHPXhDFyqNnW9T62GEhB1"
+    ],
+    "tags": ["Lucky pool"],
+    "link": ""
   }
 ]
