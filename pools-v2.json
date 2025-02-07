@@ -41,11 +41,13 @@
     "name": "Luxor",
     "addresses": [
       "1MkCDCzHpBsYQivp8MxjY5AkTGG1f2baoe",
-      "39bitUyBcUu3y3hRTtYprKbTp712t4ZWqK"
+      "39bitUyBcUu3y3hRTtYprKbTp712t4ZWqK",
+      "32BfKjhByDSxx3BM5vUkQ3NQq9csZR6nt6"
     ],
     "tags": [
       "/LUXOR/",
-      "Powered by Luxor Tech"
+      "Powered by Luxor Tech",
+      "Mined by Luxor Tech"
     ],
     "link": "https://mining.luxor.tech"
   },
