@@ -1802,5 +1802,16 @@
     ],
     "tags": ["/Est3lar/", "est3lar", "Est3lar", "EST3LAR"],
     "link": "https://est3lar.io"
+  },
+  {
+    "id": 168,
+    "name": "UUID Miner",
+    "addresses": [
+      "bc1q0a5zgnc08lhw23ddy7p34kkqwvkhhwn0u0nsnc",
+      "bc1q4k98v8y3sg8e7r3nfr0kmfufcf7mplyjq7utu6",
+      "bc1qvpstwkk28wpcrnuej0uf7af9u3lvns4epfdysh"
+    ],
+    "tags": [":\\/\\/[a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}"],
+    "link": ""
   }
 ]
