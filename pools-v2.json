@@ -1784,5 +1784,14 @@
     "addresses": [],
     "tags": ["parasite"],
     "link": "https://parasite.space"
+  },
+  {
+    "id": 166,
+    "name": "RedRock Pool",
+    "addresses": [
+      "3554kSaWNnP3B49Xyybert7gmxq2YSnfnx"
+    ],
+    "tags": ["RedRock"],
+    "link": "https://redrock.pro/"
   }
 ]
