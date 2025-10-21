@@ -1793,5 +1793,14 @@
     ],
     "tags": ["RedRock"],
     "link": "https://redrock.pro/"
+  },
+  {
+    "id": 167,
+    "name": "Est3lar",
+    "addresses": [
+      "34qGNFx6uQv6SzjYPbYVWtjvuy5DSGugt8"
+    ],
+    "tags": ["/Est3lar/", "est3lar", "Est3lar", "EST3LAR"],
+    "link": "https://est3lar.io"
   }
 ]
