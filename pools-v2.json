@@ -1714,11 +1714,11 @@
   },
   {
     "id": 158,
-    "name": "luckyPool",
+    "name": "GDPool",
     "addresses": [
       "1DnPPFQPrfyNTiHPXhDFyqNnW9T62GEhB1"
     ],
-    "tags": ["Lucky pool"],
+    "tags": ["Lucky pool", "GDPool"],
     "link": ""
   },
   {
