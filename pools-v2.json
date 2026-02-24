@@ -1804,5 +1804,12 @@
     ],
     "tags": ["/Est3lar/", "est3lar", "Est3lar", "EST3LAR"],
     "link": "https://est3lar.io"
+  },
+  {
+    "id": 168,
+    "name": "Braiins Solo",
+    "addresses": [],
+    "tags": ["/braiinssolo/"],
+    "link": "https://solo.braiins.com"
   }
 ]
