@@ -1836,5 +1836,12 @@
     "addresses": [],
     "tags": ["/DMND/"],
     "link": "https://www.dmnd.work/"
+  },
+  {
+    "id": 172,
+    "name": "P2Poolv2",
+    "addresses": [],
+    "tags": ["P2Poolv2"],
+    "link": "https://p2poolv2.org/"
   }
 ]
