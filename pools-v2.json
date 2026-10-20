@@ -1849,5 +1849,12 @@
     "addresses": [],
     "tags": ["/trustpool/"],
     "link": "https://trustpool.cc"
+  },
+  {
+    "id": 173,
+    "name": "P2Poolv2",
+    "addresses": [],
+    "tags": ["P2Poolv2"],
+    "link": "https://p2poolv2.org/"
   }
 ]
