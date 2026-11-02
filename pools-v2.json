@@ -1837,5 +1837,12 @@
     "addresses": [],
     "tags": ["/DMND/"],
     "link": "https://www.dmnd.work/"
+  },
+  {
+    "id": 172,
+    "name": "TrustPool",
+    "addresses": [],
+    "tags": ["/trustpool/"],
+    "link": "https://trustpool.cc"
   }
 ]
