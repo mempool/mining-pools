@@ -1849,5 +1849,12 @@
     "addresses": [],
     "tags": ["/trustpool/"],
     "link": "https://trustpool.cc"
+  },
+  {
+    "id": 174,
+    "name": "YUMTECH POOL",
+    "addresses": [],
+    "tags": ["/YUMTECH-SOLO/"],
+    "link": "https://yumtechpool.tr"
   }
 ]
